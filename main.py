@@ -52,6 +52,7 @@ plt.xlabel("Mois")
 plt.ylabel("Ventes")
 plt.tight_layout()
 plt.show()
+plt.savefig("mois.png")
 
 # ============================
 # 3. Pertes (Profit < 0)
@@ -80,10 +81,8 @@ plt.title("Top 3 produits par ventes")
 plt.xlabel("Produit")
 plt.ylabel("Ventes")
 plt.tight_layout()
-
+plt.show()
 # Sauvegarde image
 plt.savefig("Top Produit.png")
 
-# Affichage
-plt.show()
 
